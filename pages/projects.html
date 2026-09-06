@@ -5,9 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="This is the projects page of the personal website of Hardip Chander. The website showcases his skills and history in tech.">
     <title>Projects</title>
+    <link rel="icon" type="image/png" sizes="192x192" href="../images/favicon.png">
     <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/mediaqueries.css">
   </head>
   <body>
-      
+    <nav id="desktop-nav">
+      <div class="logo"><a href="../index.html">Hardip Chander</a></div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="./academia.html">Academia</a>   </li>
+          <li><a href="./credentials.html">Credentials</a>  </li>
+          <li>Projects</li>
+          <li><a href="./work.html">Experience</a>  </li>
+        </ul>
+      </div>
+    </nav>
+
+    <nav id="hamburger-nav">
+      <div class="logo"><a href="../index.html">Hardip Chander</a></div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="./academia.html" onclick="toggleMenu()">Academia</a>   </li>
+          <li><a href="./credentials.html" onclick="toggleMenu()">Credentials</a>  </li>
+          <li><a href="./projects.html" onclick="toggleMenu()">Projects</a>  </li>
+          <li><a href="./work.html" onclick="toggleMenu()">Experience</a>  </li>
+        </div>
+      </div>
+    </nav>
+
+    <script src="../script.js"></script>
   </body>
 </html>
