@@ -135,7 +135,7 @@ section {
     display: flex;
 }
 
-/* Profile Section */
+/* Profile Page */
 #profile {
     display: flex;
     justify-content: center;
@@ -223,7 +223,7 @@ section {
     gap: 1rem;
 }
 
-/* About/Academia Section */
+/* About/Academia Page */
 #about {
     position: relative;
 }
@@ -263,7 +263,7 @@ section {
     margin: auto 0;
 }
 
-/* Experience/Work Section */
+/* Experience/Work Page */
 .experience-sub-title {
     color: rgb(85,85,85);
     font-weight: 600;
@@ -291,5 +291,6 @@ article {
 }
 article .icon {
     cursor: default;
-    
 }
+
+/* Projects Page */
