@@ -346,3 +346,11 @@ article .icon {
     height: 2.5rem;
     
 }
+
+/* Footer Section*/
+footer {
+    margin-bottom: 10px;
+}
+footer p {
+    text-align: center;
+}
