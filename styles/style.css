@@ -130,7 +130,7 @@ section {
   display: flex;
 }
 
-/* Profile Section */
+/* Profile */
 #profile {
   display: flex;
   justify-content: center;
@@ -178,7 +178,7 @@ section {
   height: 2rem;
 }
 
-/* BUTTONS */
+/* Buttons */
 .btn-container {
   display: flex;
   justify-content: center;
@@ -214,7 +214,7 @@ section {
   gap: 1rem;
 }
 
-/* About Section */
+/* About */
 #about {
   position: relative;
 }
@@ -257,7 +257,7 @@ section {
   margin: auto 0;
 }
 
-/* Experience Section */
+/* Experience */
 #experience {
   position: relative;
 }
@@ -290,7 +290,7 @@ article .icon {
   cursor: default;
 }
 
-/* Projects Section */
+/* Projects */
 #projects {
   position: relative;
 }
@@ -312,7 +312,7 @@ article .icon {
   border-color: rgb(163, 163, 163);
 }
 
-/* CONTACT */
+/* Contact/Credentials */
 #contact {
   display: flex;
   justify-content: center;
@@ -345,8 +345,13 @@ article .icon {
 .email-icon {
   height: 2.5rem;
 }
+#contact p {
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: bold;
+}
 
-/* FOOTER SECTION */
+/* Footer */
 footer {
   height: 26vh;
   margin: 0 1rem;
